@@ -4,9 +4,10 @@ import { StyleSheet } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { RootStackParamList } from './src/types/navigation.types';
+import { store } from './src/store';
 import EmployeeListing from './src/screens/EmployeeListing';
 import EmployeeDetail from './src/screens/EmployeeDetail';
-import { store } from './src/store';
+import DepartmentEmployees from './src/screens/DepartmentEmployees';
 
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
@@ -18,6 +19,7 @@ export default function App() {
         <Stack.Navigator id={undefined} initialRouteName="EmployeeListing">
           <Stack.Screen name="EmployeeListing" component={EmployeeListing} />
           <Stack.Screen name="EmployeeDetail" component={EmployeeDetail} />
+          <Stack.Screen name="DepartmentEmployees" component={DepartmentEmployees} />
         </Stack.Navigator>
       </NavigationContainer>
     </Provider>

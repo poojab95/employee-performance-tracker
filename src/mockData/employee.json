@@ -1,0 +1,551 @@
+[
+  {
+    "id": "1",
+    "timezone": "CST",
+    "name": "Arjun Rao",
+    "location": "N Glenville Dr Bldg A, Richardson, TX 75082",
+    "project": "Smart Facility Management",
+    "title": "Energy Analyst",
+    "department": "SmartFM",
+    "imageUrl": "https://avatar.iran.liara.run/public/1",
+    "performance": {
+      "rating": 4,
+      "comments": [
+        "Consistent performance",
+        "Meets deadlines"
+      ]
+    }
+  },
+  {
+    "id": "2",
+    "timezone": "CST",
+    "name": "Yara Patel",
+    "location": "N Glenville Dr Bldg A, Richardson, TX 75082",
+    "project": "A.I Integration Solutions",
+    "title": "Voice AI Specialist",
+    "department": "AI Integration",
+    "imageUrl": "https://avatar.iran.liara.run/public/2",
+    "performance": {
+      "rating": 5,
+      "comments": [
+        "Innovative features",
+        "Customer-focused"
+      ]
+    }
+  },
+  {
+    "id": "3",
+    "timezone": "CST",
+    "name": "Carlos Gomez",
+    "location": "N Glenville Dr Bldg A, Richardson, TX 75082",
+    "project": "Smart Facility Management",
+    "title": "Automation Engineer",
+    "department": "SmartFM",
+    "imageUrl": "https://avatar.iran.liara.run/public/3",
+    "performance": {
+      "rating": 3,
+      "comments": [
+        "Needs improvement in documentation"
+      ]
+    }
+  },
+  {
+    "id": "4",
+    "timezone": "CST",
+    "name": "Sakura Tanaka",
+    "location": "2025-03-26T03:00:00Z",
+    "project": "Smart Facility Management",
+    "title": "Systems Architect",
+    "department": "SmartFM",
+    "imageUrl": "https://avatar.iran.liara.run/public/4",
+    "performance": {
+      "rating": 5,
+      "comments": [
+        "Excellent system design",
+        "Strong leadership"
+      ]
+    }
+  },
+  {
+    "id": "5",
+    "timezone": "CST",
+    "name": "James Lee",
+    "location": "2025-03-26T11:00:00Z",
+    "project": "A.I Integration Solutions",
+    "title": "Data Scientist",
+    "department": "AI Integration",
+    "imageUrl": "https://avatar.iran.liara.run/public/5",
+    "performance": {
+      "rating": 4,
+      "comments": [
+        "Strong analytical skills",
+        "Quick problem-solving"
+      ]
+    }
+  },
+  {
+    "id": "6",
+    "timezone": "CST",
+    "name": "Elena Petrova",
+    "location": "2025-03-26T08:00:00Z",
+    "project": "Smart Facility Management",
+    "title": "UI Designer",
+    "department": "SmartFM",
+    "imageUrl": "https://avatar.iran.liara.run/public/6",
+    "performance": {
+      "rating": 4,
+      "comments": [
+        "Clean UI",
+        "User-friendly"
+      ]
+    }
+  },
+  {
+    "id": "7",
+    "timezone": "CST",
+    "name": "Michael Smith",
+    "location": "2025-03-26T17:00:00Z",
+    "project": "A.I Integration Solutions",
+    "title": "AI Engineer",
+    "department": "AI Integration",
+    "imageUrl": "https://avatar.iran.liara.run/public/7",
+    "performance": {
+      "rating": 5,
+      "comments": [
+        "Advanced NLP models",
+        "Efficient"
+      ]
+    }
+  },
+  {
+    "id": "8",
+    "timezone": "CST",
+    "name": "Ali Hassan",
+    "location": "2025-03-26T10:00:00Z",
+    "project": "Smart Facility Management",
+    "title": "Insights Analyst",
+    "department": "SmartFM",
+    "imageUrl": "https://avatar.iran.liara.run/public/8",
+    "performance": {
+      "rating": 4,
+      "comments": [
+        "Valuable insights",
+        "Good communicator"
+      ]
+    }
+  },
+  {
+    "id": "9",
+    "timezone": "CST",
+    "name": "Ava Johnson",
+    "location": "2025-03-26T14:00:00Z",
+    "project": "A.I Integration Solutions",
+    "title": "AI Ops Engineer",
+    "department": "AI Integration",
+    "imageUrl": "https://avatar.iran.liara.run/public/9",
+    "performance": {
+      "rating": 3,
+      "comments": [
+        "Frequent bugs",
+        "Improving steadily"
+      ]
+    }
+  },
+  {
+    "id": "10",
+    "timezone": "CST",
+    "name": "Vikram Mehta",
+    "location": "2025-03-26T06:00:00Z",
+    "project": "HVAC Controls",
+    "title": "Smart Facility Management",
+    "department": "SmartFM",
+    "imageUrl": "https://avatar.iran.liara.run/public/10",
+    "performance": {
+      "rating": 4,
+      "comments": [
+        "Technically sound",
+        "Dependable"
+      ]
+    }
+  },
+  {
+    "id": "11",
+    "timezone": "CST",
+    "name": "Maria Lopez",
+    "location": "2025-03-26T13:00:00Z",
+    "project": "Remote Diagnostics",
+    "title": "A.I Integration Solutions",
+    "department": "AI Integration",
+    "imageUrl": "https://avatar.iran.liara.run/public/11",
+    "performance": {
+      "rating": 5,
+      "comments": [
+        "Thorough testing",
+        "Team player"
+      ]
+    }
+  },
+  {
+    "id": "12",
+    "timezone": "CST",
+    "name": "Nguyen Tran",
+    "location": "2025-03-26T04:00:00Z",
+    "project": "Thermal Analytics",
+    "title": "Smart Facility Management",
+    "department": "SmartFM",
+    "imageUrl": "https://avatar.iran.liara.run/public/12",
+    "performance": {
+      "rating": 3,
+      "comments": [
+        "Missed deadlines",
+        "Needs mentoring"
+      ]
+    }
+  },
+  {
+    "id": "13",
+    "timezone": "CST",
+    "name": "Liam Brown",
+    "location": "2025-03-26T08:00:00Z",
+    "project": "A.I Integration Solutions",
+    "title": "Alerts Coordinator",
+    "department": "AI Integration",
+    "imageUrl": "https://avatar.iran.liara.run/public/13",
+    "performance": {
+      "rating": 4,
+      "comments": [
+        "Prompt responses",
+        "Engaging updates"
+      ]
+    }
+  },
+  {
+    "id": "14",
+    "timezone": "CST",
+    "name": "Zara Khan",
+    "location": "2025-03-26T07:00:00Z",
+    "project": "Green Building Tracker",
+    "title": "Smart Facility Management",
+    "department": "SmartFM",
+    "imageUrl": "https://avatar.iran.liara.run/public/14",
+    "performance": {
+      "rating": 5,
+      "comments": [
+        "Environmentally proactive",
+        "Creative"
+      ]
+    }
+  },
+  {
+    "id": "15",
+    "timezone": "CST",
+    "name": "Henry Wilson",
+    "location": "2025-03-26T18:00:00Z",
+    "project": "Bot Assistant",
+    "title": "A.I Integration Solutions",
+    "department": "AI Integration",
+    "imageUrl": "https://avatar.iran.liara.run/public/15",
+    "performance": {
+      "rating": 4,
+      "comments": [
+        "Smooth UI",
+        "Interactive"
+      ]
+    }
+  },
+  {
+    "id": "16",
+    "timezone": "CST",
+    "name": "Lena Müller",
+    "location": "2025-03-26T08:00:00Z",
+    "project": "Sensor Mapping",
+    "title": "Smart Facility Management",
+    "department": "SmartFM",
+    "imageUrl": "https://avatar.iran.liara.run/public/16",
+    "performance": {
+      "rating": 4,
+      "comments": [
+        "Accurate mappings",
+        "Innovative"
+      ]
+    }
+  },
+  {
+    "id": "17",
+    "timezone": "CST",
+    "name": "Jake Thomas",
+    "location": "2025-03-26T16:00:00Z",
+    "project": "A.I Integration Solutions",
+    "title": "Quality Engineer",
+    "department": "AI Integration",
+    "imageUrl": "https://avatar.iran.liara.run/public/17",
+    "performance": {
+      "rating": 3,
+      "comments": [
+        "Better error logging needed"
+      ]
+    }
+  },
+  {
+    "id": "18",
+    "timezone": "CST",
+    "name": "Reema Singh",
+    "location": "2025-03-26T05:00:00Z",
+    "project": "Performance Metrics",
+    "title": "Smart Facility Management",
+    "department": "SmartFM",
+    "imageUrl": "https://avatar.iran.liara.run/public/18",
+    "performance": {
+      "rating": 4,
+      "comments": [
+        "Great dashboard designs"
+      ]
+    }
+  },
+  {
+    "id": "19",
+    "timezone": "CST",
+    "name": "Kenji Mori",
+    "location": "2025-03-26T03:30:00Z",
+    "project": "A.I Integration Solutions",
+    "title": "Localization Engineer",
+    "department": "AI Integration",
+    "imageUrl": "https://avatar.iran.liara.run/public/19",
+    "performance": {
+      "rating": 4,
+      "comments": [
+        "Multilingual support added"
+      ]
+    }
+  },
+  {
+    "id": "20",
+    "timezone": "CST",
+    "name": "Nora White",
+    "location": "2025-03-26T12:00:00Z",
+    "project": "Smart Facility Management",
+    "title": "Lighting Designer",
+    "department": "SmartFM",
+    "imageUrl": "https://avatar.iran.liara.run/public/20",
+    "performance": {
+      "rating": 5,
+      "comments": [
+        "Energy-saving solutions"
+      ]
+    }
+  },
+  {
+    "id": "21",
+    "timezone": "CST",
+    "name": "David Kim",
+    "location": "2025-03-26T08:30:00Z",
+    "project": "Integrated Facility Management",
+    "title": "Remote Sensing Expert",
+    "department": "IFM Hub",
+    "imageUrl": "https://avatar.iran.liara.run/public/21",
+    "performance": {
+      "rating": 4,
+      "comments": [
+        "Precise analysis"
+      ]
+    }
+  },
+  {
+    "id": "22",
+    "timezone": "CST",
+    "name": "Sara Oliveira",
+    "location": "2025-03-26T13:00:00Z",
+    "project": "Integrated Facility Management",
+    "title": "Data Integrator",
+    "department": "IFM Hub",
+    "imageUrl": "https://avatar.iran.liara.run/public/22",
+    "performance": {
+      "rating": 3,
+      "comments": [
+        "Improved pipelines"
+      ]
+    }
+  },
+  {
+    "id": "23",
+    "timezone": "CST",
+    "name": "Hassan Ali",
+    "location": "2025-03-26T09:00:00Z",
+    "project": "Integrated Facility Management",
+    "title": "Infrastructure Engineer",
+    "department": "IFM Hub",
+    "imageUrl": "https://avatar.iran.liara.run/public/23",
+    "performance": {
+      "rating": 5,
+      "comments": [
+        "Cost reductions implemented"
+      ]
+    }
+  },
+  {
+    "id": "24",
+    "timezone": "CST",
+    "name": "Emily Scott",
+    "location": "2025-03-26T11:00:00Z",
+    "project": "Integrated Facility Management",
+    "title": "Compliance Officer",
+    "department": "IFM Hub",
+    "imageUrl": "https://avatar.iran.liara.run/public/24",
+    "performance": {
+      "rating": 4,
+      "comments": [
+        "Timely reports"
+      ]
+    }
+  },
+  {
+    "id": "25",
+    "timezone": "CST",
+    "name": "Ankit Sharma",
+    "location": "2025-03-26T06:30:00Z",
+    "project": "Integrated Facility Management",
+    "title": "Security Analyst",
+    "department": "IFM Hub",
+    "imageUrl": "https://avatar.iran.liara.run/public/25",
+    "performance": {
+      "rating": 5,
+      "comments": [
+        "Identified critical gaps"
+      ]
+    }
+  },
+  {
+    "id": "26",
+    "timezone": "CST",
+    "name": "Wei Chen",
+    "location": "2025-03-26T02:00:00Z",
+    "project": "Integrated Facility Management",
+    "title": "Facilities Manager",
+    "department": "IFM Hub",
+    "imageUrl": "https://avatar.iran.liara.run/public/26",
+    "performance": {
+      "rating": 4,
+      "comments": [
+        "Smooth dashboard rollout"
+      ]
+    }
+  },
+  {
+    "id": "27",
+    "timezone": "CST",
+    "name": "Thiago Mendes",
+    "location": "2025-03-26T14:00:00Z",
+    "project": "Integrated Facility Management",
+    "title": "Operations Coordinator",
+    "department": "IFM Hub",
+    "imageUrl": "https://avatar.iran.liara.run/public/27",
+    "performance": {
+      "rating": 4,
+      "comments": [
+        "Efficient planning",
+        "Good teamwork"
+      ]
+    }
+  },
+  {
+    "id": "28",
+    "timezone": "CST",
+    "name": "Nay Chi Win",
+    "location": "2025-03-26T07:30:00Z",
+    "project": "Integrated Facility Management",
+    "title": "Safety Consultant",
+    "department": "IFM Hub",
+    "imageUrl": "https://avatar.iran.liara.run/public/28",
+    "performance": {
+      "rating": 5,
+      "comments": [
+        "Excellent compliance management"
+      ]
+    }
+  },
+  {
+    "id": "29",
+    "timezone": "CST",
+    "name": "Johan de Vries",
+    "location": "2025-03-26T10:00:00Z",
+    "project": "Integrated Facility Management",
+    "title": "Monitoring Specialist",
+    "department": "IFM Hub",
+    "imageUrl": "https://avatar.iran.liara.run/public/29",
+    "performance": {
+      "rating": 4,
+      "comments": [
+        "Quick issue detection",
+        "Reliable"
+      ]
+    }
+  },
+  {
+    "id": "30",
+    "timezone": "CST",
+    "name": "Sita Adhikari",
+    "location": "2025-03-26T06:15:00Z",
+    "project": "Integrated Facility Management",
+    "title": "Lifecycle Analyst",
+    "department": "IFM Hub",
+    "imageUrl": "https://avatar.iran.liara.run/public/30",
+    "performance": {
+      "rating": 3,
+      "comments": [
+        "Solid planning",
+        "Needs better follow-ups"
+      ]
+    }
+  },
+  {
+    "id": "31",
+    "timezone": "CST",
+    "name": "Christopher Hall",
+    "location": "2025-03-26T13:00:00Z",
+    "project": "Integrated Facility Management",
+    "title": "System Simulation Expert",
+    "department": "IFM Hub",
+    "imageUrl": "https://avatar.iran.liara.run/public/31",
+    "performance": {
+      "rating": 5,
+      "comments": [
+        "Advanced modeling",
+        "Very innovative"
+      ]
+    }
+  },
+  {
+    "id": "32",
+    "timezone": "CST",
+    "name": "Aiko Nakamura",
+    "location": "2025-03-26T03:00:00Z",
+    "project": "Integrated Facility Management",
+    "title": "Access Systems Engineer",
+    "department": "IFM Hub",
+    "imageUrl": "https://avatar.iran.liara.run/public/32",
+    "performance": {
+      "rating": 4,
+      "comments": [
+        "Secure implementation",
+        "Responsive to feedback"
+      ]
+    }
+  },
+  {
+    "id": "33",
+    "timezone": "CST",
+    "name": "Ahmad Farzan",
+    "location": "2025-03-26T05:30:00Z",
+    "project": "Integrated Facility Management",
+    "title": "Financial Analyst",
+    "department": "IFM Hub",
+    "imageUrl": "https://avatar.iran.liara.run/public/33",
+    "performance": {
+      "rating": 5,
+      "comments": [
+        "Accurate forecasting",
+        "Strategic thinker"
+      ]
+    }
+  }
+]
