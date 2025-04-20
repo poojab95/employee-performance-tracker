@@ -1,36 +1,16 @@
 import React from 'react';
 import { Provider } from 'react-redux';
-import { StyleSheet } from 'react-native';
-import { NavigationContainer } from '@react-navigation/native';
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import { RootStackParamList } from './src/types/navigation.types';
-import { store } from './src/store';
-import EmployeeListing from './src/screens/EmployeeListing';
-import EmployeeDetail from './src/screens/EmployeeDetail';
-import DepartmentEmployees from './src/screens/DepartmentEmployees';
+import { persistor, store } from './src/redux/store';
+import { PersistGate } from 'redux-persist/integration/react';
+import StackNavigation from './src/navigation/StackNavigation';
 
-
-const Stack = createNativeStackNavigator<RootStackParamList>();
 
 export default function App() {
   return (
     <Provider store={store}>
-      <NavigationContainer>
-        <Stack.Navigator id={undefined} initialRouteName="EmployeeListing">
-          <Stack.Screen name="EmployeeListing" component={EmployeeListing} />
-          <Stack.Screen name="EmployeeDetail" component={EmployeeDetail} />
-          <Stack.Screen name="DepartmentEmployees" component={DepartmentEmployees} />
-        </Stack.Navigator>
-      </NavigationContainer>
+      <PersistGate loading={null} persistor={persistor}>
+        <StackNavigation />
+      </PersistGate>
     </Provider>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
