@@ -12,8 +12,8 @@ const StackNavigation = () => {
     return (
         <NavigationContainer>
             <Stack.Navigator id={undefined} initialRouteName="EmployeeListing">
-                <Stack.Screen name="EmployeeListing" component={EmployeeListing} />
-                <Stack.Screen name="EmployeeDetail" component={EmployeeDetail} />
+                <Stack.Screen name="EmployeeListing" component={EmployeeListing} options={{ headerShown: false }} />
+                <Stack.Screen name="EmployeeDetail" component={EmployeeDetail} options={{ headerShown: false }} />
                 <Stack.Screen name="DepartmentEmployees" component={DepartmentEmployees} />
             </Stack.Navigator>
         </NavigationContainer>
