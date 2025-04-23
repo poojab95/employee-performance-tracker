@@ -33,6 +33,7 @@ const StarRating = ({ id, maxStars = 5 }: RatingProps) => {
                     <TouchableOpacity
                         key={starNumber}
                         onPress={() => handlePress(starNumber)}
+                        testID={`star-${starNumber}`}
                     >
                         <FontAwesome
                             name={starNumber <= rating ? 'star' : 'star-o'}
