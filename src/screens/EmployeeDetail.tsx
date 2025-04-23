@@ -24,7 +24,6 @@ const EmployeeDetail = () => {
     const route = useRoute<RouteProp<RootStackParamList, 'EmployeeDetail'>>();
     const { id } = route.params;
     const employee = useSelector(selectEmployeeById(id));
-    console.log('EmployeeDetail', employee);
     if (!employee) {
         return (
             <View style={styles.container}>

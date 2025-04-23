@@ -21,8 +21,6 @@ const EmployeeListing = () => {
 
 
     const renderItem = ({ item }: { item: MixedCardType }) => {
-        console.log('mixedCardData', mixedCardData);
-
         if (item.type === 'group') {
             return (
                 <TouchableOpacity

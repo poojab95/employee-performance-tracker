@@ -7,7 +7,6 @@ import { departmentEmployeeStyles as styles } from './styles/departmentEmployees
 
 const DepartmentEmployees = () => {
     const { params } = useRoute<RouteProp<RootStackParamList, 'DepartmentEmployees'>>();
-    console.log('params', params);
     const { department, employees } = params;
     return (
         <View style={styles.container}>
