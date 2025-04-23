@@ -6,10 +6,10 @@ import type { RootStackParamList } from '../types/navigation.types';
 import { useSelector } from 'react-redux';
 import { selectEmployeeById } from '../redux/selectors/employeeSelector';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import NavigationHeader from '../components/NavigationHeader';
 import { employeeDetailStyles as styles } from './styles/employeeDetail';
 import EmployeeFeedback from '../components/EmployeeFeedBack';
 import StarRating from '../components/EmployeeStarRating';
+import NavigationHeader from '../components/NavigationHeader';
 
 const DetailRow = ({ label, value }: { label: string; value: string }) => (
     <>

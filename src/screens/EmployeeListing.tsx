@@ -1,14 +1,15 @@
 import React, { useMemo } from 'react'
 import { useNavigation } from '@react-navigation/native'
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
-import { Text, TouchableOpacity, FlatList } from 'react-native'
+import { Text, TouchableOpacity, FlatList, SafeAreaView } from 'react-native'
 import { RootStackParamList } from '../types/navigation.types';
 import { useSelector } from 'react-redux';
 import { RootState } from '../redux/store';
-import EmployeeCard from '../components/EmployeeCard';
 import { createMixedCardList } from '../utils/createMixedCardList';
 import { MixedCardType } from '../types/employeeDisplay.types';
+import { employeeListingStyles as styles } from './styles/employeeListing';
 import Header from '../components/Header';
+import EmployeeCard from '../components/EmployeeCard';
 
 type NavigationProp = NativeStackNavigationProp<RootStackParamList, 'EmployeeListing'>;
 
@@ -50,17 +51,8 @@ const EmployeeListing = () => {
         return null;
     };
 
-    if (mixedCardData.length === 0) {
-        return (
-            <Text>
-                No employee data available.
-            </Text>
-        );
-    }
-
-
     return (
-        <>
+        <SafeAreaView style={styles.container}>
             <Header title='CBRE' />
             <FlatList data={mixedCardData}
                 keyExtractor={(item) =>
@@ -69,8 +61,13 @@ const EmployeeListing = () => {
                         : `group-${item.department}`
                 }
                 renderItem={renderItem}
+                ListEmptyComponent={() => (
+                    <Text style={styles.emptyData}>
+                        No employee data available.
+                    </Text>
+                )}
             />
-        </>
+        </SafeAreaView>
     )
 }
 
