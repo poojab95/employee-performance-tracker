@@ -4,13 +4,12 @@ import { useRoute } from '@react-navigation/native';
 import type { RouteProp } from '@react-navigation/native';
 import type { RootStackParamList } from '../types/navigation.types';
 import { useSelector } from 'react-redux';
-import StarRating from '../components/EmployeeStarRating';
 import { selectEmployeeById } from '../redux/selectors/employeeSelector';
-import EmployeeFeedback from '../components/EmployeeFeedBack';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import NavigationHeader from '../components/NavigationHeader';
-
-
+import { employeeDetailStyles as styles } from './styles/employeeDetail';
+import EmployeeFeedback from '../components/EmployeeFeedBack';
+import StarRating from '../components/EmployeeStarRating';
 
 const DetailRow = ({ label, value }: { label: string; value: string }) => (
     <>
@@ -66,50 +65,5 @@ const EmployeeDetail = () => {
         </KeyboardAvoidingView >
     );
 }
-
-const styles = StyleSheet.create({
-    container: {
-        padding: 20,
-    },
-    imageContainer: {
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-        marginBottom: 20,
-    },
-    image: {
-        height: 200,
-        width: 200,
-        borderRadius: 10,
-        marginBottom: 20,
-    },
-    row: {
-        margin: 10,
-        display: 'flex',
-        flexDirection: 'row',
-        justifyContent: 'space-between',
-        alignItems: 'center',
-    },
-    label: {
-        fontWeight: '600',
-        fontSize: 14,
-        color: '#555',
-    },
-    value: {
-        fontSize: 16,
-        marginBottom: 5,
-        color: '#222',
-        alignItems: 'flex-end',
-    },
-    separator: {
-        height: 1,
-        backgroundColor: 'lightgreen',
-        marginTop: 5,
-    },
-    notFound: {
-        fontSize: 16,
-        color: 'red',
-    },
-});
 
 export default EmployeeDetail;

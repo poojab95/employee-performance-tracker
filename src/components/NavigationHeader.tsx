@@ -2,6 +2,7 @@ import React from 'react';
 import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import { Ionicons } from '@expo/vector-icons';
+import { navigationHeaderStyles as styles } from './styles/navigationHeader';
 
 type NavigationHeaderProps = {
     title?: string;
@@ -33,38 +34,5 @@ const NavigationHeader: React.FC<NavigationHeaderProps> = ({
         </View>
     );
 };
-
-const styles = StyleSheet.create({
-    header: {
-        paddingTop: 50,
-        paddingHorizontal: 16,
-        paddingBottom: 10,
-        backgroundColor: 'lightgrey',
-        flexDirection: 'row',
-        alignItems: 'center',
-    },
-    backButton: {
-        flexDirection: 'row',
-        alignItems: 'center',
-        marginRight: 12,
-    },
-    backText: {
-        marginLeft: 4,
-        fontSize: 16,
-        color: '#007AFF',
-    },
-    titleWrapper: {
-        flexDirection: 'column',
-    },
-    title: {
-        fontSize: 18,
-        fontWeight: 'bold',
-        color: '#111',
-    },
-    subtitle: {
-        fontSize: 13,
-        color: '#666',
-    },
-});
 
 export default NavigationHeader;

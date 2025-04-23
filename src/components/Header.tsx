@@ -1,5 +1,6 @@
 import React from 'react';
 import { View, Text, StyleSheet, SafeAreaView, Platform, StatusBar } from 'react-native';
+import { headerStyles as styles } from './styles/header';
 
 interface HeaderProps {
     title: string;
@@ -28,20 +29,5 @@ const Header: React.FC<HeaderProps> = ({
         </SafeAreaView>
     );
 };
-
-const styles = StyleSheet.create({
-    safeArea: {
-        paddingTop: Platform.OS === 'android' ? StatusBar.currentHeight : 0, // Handles safe area for Android status bar
-    },
-    container: {
-        justifyContent: 'center',
-        paddingVertical: 16,
-        paddingHorizontal: 16,
-    },
-    title: {
-        fontSize: 22,
-        fontWeight: 'bold',
-    },
-});
 
 export default React.memo(Header);

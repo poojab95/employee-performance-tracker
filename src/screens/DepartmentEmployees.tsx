@@ -3,6 +3,7 @@ import { RouteProp, useRoute } from '@react-navigation/native';
 import { FlatList, Text, View, StyleSheet } from 'react-native'
 import { RootStackParamList } from '../types/navigation.types';
 import { Employee } from '../types/employee.types';
+import { departmentEmployeeStyles as styles } from './styles/departmentEmployees';
 
 const DepartmentEmployees = () => {
     const { params } = useRoute<RouteProp<RootStackParamList, 'DepartmentEmployees'>>();
@@ -22,29 +23,5 @@ const DepartmentEmployees = () => {
         </View>
     )
 }
-
-
-const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        padding: 16,
-        backgroundColor: '#fff',
-    },
-    title: {
-        fontSize: 24,
-        fontWeight: 'bold',
-    },
-    name: {
-        fontSize: 20,
-        fontWeight: 'bold',
-        marginBottom: 16,
-        backgroundColor: '#003F2D',
-        color: '#fff',
-        padding: 16,
-        borderRadius: 8,
-        marginVertical: 8,
-    },
-});
-
 
 export default DepartmentEmployees;

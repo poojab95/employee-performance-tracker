@@ -4,6 +4,7 @@ import { FontAwesome } from '@expo/vector-icons';
 import { useDispatch, useSelector } from 'react-redux';
 import { RootState, AppDispatch } from '../redux/store';
 import { updateRating } from '../redux/slices/employeeSlice';
+import { employeeStarRatingStyles as styles } from './styles/employeeStarRating';
 
 type RatingProps = {
     maxStars?: number;
@@ -45,15 +46,5 @@ const StarRating = ({ id, maxStars = 5 }: RatingProps) => {
         </View>
     );
 };
-
-const styles = StyleSheet.create({
-    container: {
-        flexDirection: 'row',
-        marginVertical: 10,
-    },
-    star: {
-        marginHorizontal: 4,
-    },
-});
 
 export default StarRating;
