@@ -7,7 +7,7 @@ import { useSelector } from 'react-redux';
 import { selectEmployeeById } from '../redux/selectors/employeeSelector';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { employeeDetailStyles as styles } from './styles/employeeDetail';
-import EmployeeFeedback from '../components/EmployeeFeedBack';
+import EmployeeFeedback from '../components/EmployeeFeedback';
 import StarRating from '../components/EmployeeStarRating';
 import NavigationHeader from '../components/NavigationHeader';
 
